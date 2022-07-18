@@ -4,3 +4,4 @@ Flask-JWT-EXTENDED
 Flask-SQLAlchemy
 uwsgi
 psycopg2
+python-dotenv
