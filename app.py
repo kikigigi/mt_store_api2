@@ -17,7 +17,7 @@ app.config['PROPAGATE_EXCEPTIONS'] = True
 app.config['JWT_BLACKLIST_ENABLED'] = True
 app.config['JWT_BLACKLIST_TOKEN_CHECKS'] = ['access', 'refresh']
 load_dotenv()
-app.secret_key = os.getenv('SECRET_KEY')
+app.secret_key = 'Bkhgeli4gpiamQ56Csl2OzPleMXdOO'
 api = Api(app)
 
 jwt = JWTManager(app)
