@@ -30,7 +30,6 @@ zipp==3.8.0
 =======
 Flask
 Flask-RESTful
-Flask-JWT-Extended
 Flask-SQLAlchemy
 uwsgi
 psycopg2
